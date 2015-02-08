@@ -1,0 +1,10 @@
+X-AspNet-Version: Version number of the ASP.NET
+Vary, Accept-Encoding: says that two cacheable responses of the same resource will be the same so it can be reused
+Date: Date and time of the request.
+Content-Length: number of characters in the response
+Status: Status of the HHTP response, 200 OK means a successful HTTP request.
+Content-Encoding: The type of encoding used
+Content-Type: The type of data of the response.
+Server: This is just the name of the server
+X-Powered-By: Name of the what is powering the web application (ASP.net PHP).
+Cache-Control: Says whether or not the object may be cached and provides caching rules.

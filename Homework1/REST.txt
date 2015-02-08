@@ -1,0 +1,14 @@
+ETag: A tag similar to a hash value that is useful for determineing whether or not a previously cached version can be used or if a change has occured.
+Content-Length: Number of characters in the response
+Status: Status of the HHTP response, 200 OK means a successful HTTP request.
+X-XSS-Protection: Cross-site scripting filter that prevents attackers from injecting their scipt into web pages.
+Expires: Date and time that the response expires.
+Alternate-Protocol:All HTTP requests will try NPN-SPDY.
+Server: This is just the name of the server
+x-content-type-options: A security feature that prevents a brower from sniffing a response away from the declared content-type.
+Cache-Control:Says whether or not the object may be cached and provides caching rules.
+X-Frame-Options: Secuirty feature to prevent clickjacking, sameorigin means that if there is an origin mismath it will not render
+Vary: Says whether a previously cached response can be used or should get a new one.
+Vary: Says whether a previously cached response can be used or should get a new one.
+Date: Date and time of the request
+Content-Type: The type of data of the response.

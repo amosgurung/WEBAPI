@@ -1,0 +1,5 @@
+OAuth tokens should not be granted in the main flow, assuming the user has sent in the correct credentials
+because of security reasons. If a person were to acquire the source code and the OAuth tokens were granted
+in the main flow, then every that was being secured would be compromised. If the OAuth tokens were granted
+in a separate flow then we could encrypt it and then decrypt it at runtime so that the information would
+remain secure even if someone were to acquire the node code.
